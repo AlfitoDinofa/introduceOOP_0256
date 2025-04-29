@@ -18,7 +18,12 @@ void print_data(){
 
 
 int main(){
+    mahasiswa mhs;
+    mhs.nim = 0256;
+    mhs.nama = "fito";
+    mhs.nilai = 96,69;
 
-    
+mhs.print_data();
+
 }
 
